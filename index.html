@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic DOM Manipulation</title>
+  <style>
+    body {
+     font-family: Arial, sans-serif;
+     padding: 20px;
+     line-height: 1.6;
+    }
+
+    button {
+     margin: 5px;
+     background-color: brown;
+     font-weight: bold;
+     color: white;
+     border: none;
+     border-radius: 7px;
+     padding: 8px 12px;
+     cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="mainTitle">Welcome to My Page</h1>
+  </header>
+
+  <section>
+    <p id="description">The Text to be updated using Javascript.</p>
+    <button id="changeTextBtn">Change Text</button>
+    <button id="toggleBoxBtn">Add/Remove Box</button>
+  </section>
+
+  <article>
+    <h2>About This Page</h2>
+    <p>The world proves to be unfair which is full of manupulatives and nonchalants.</p>
+  </article>
+  <h2 id="unkown">The uttermost unconveying World</h2>
+  <div>
+    <h2>Menu List</h2>
+    <button id="addElements">ADD list</button>
+    <ol id="menu"></ol>
+    
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
